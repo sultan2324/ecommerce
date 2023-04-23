@@ -1,0 +1,84 @@
+.register__container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(176, 247, 155),rgb(57, 246, 0));
+}
+
+.register_cover{
+    background-color: white;
+    width: 55em;
+    height: 38em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    left: 22%;
+    top: 80px;
+}
+.register_input1, .register_input2, .register_input3,.register_input4, .register_input5 {
+    width: 55em;
+    height: 2.5em;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.register_input2, .register_input3,.register_input4, .register_input5{
+    margin-top: -30px;
+}
+.register_input1 input, .register_input2 input, .register_input3 input, .register_input5 input{
+    background-color: white;
+    height: 0.009em;
+    width: 30%;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 1.3em;
+    margin-top: -20px;
+    font-size: 15px;
+    border-width: 3px ;
+    display : flex;
+    
+    
+}
+.register_input4 input{
+    background-color: white;
+    height: 0.009em;
+    width: 75%;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 1.3em;
+    margin-top: -20px;
+    font-size: 15px;
+    border-width: 3px ;
+    display : flex;
+}
+
+.register_cover input:focus{
+    outline-color: rgb(176, 247, 155);
+}
+
+.register_cover button{
+    background: none;
+    border: 3px solid rgb(176, 247, 155);
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    transition: 0.5s case-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.register_cover button:hover{
+    
+    background: rgb(176, 247, 155);
+    color: black;
+}
+
+.category{
+    width: 300px;
+    position: relative;
+    margin-top: -20px;
+    justify-content: space-evenly;
+    display: flex;
+}

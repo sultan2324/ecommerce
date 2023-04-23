@@ -1,0 +1,60 @@
+.login__container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(176, 247, 155),rgb(57, 246, 0));
+}
+
+.login_cover{
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    left: 35%;
+    top: 80px;
+}
+
+.email,.password{
+    background-color: white;
+    height: 0.009em;
+    width: 50%;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 1.3em;
+    margin-top: -20px;
+    font-size: 15px;
+    border-width: 3px ;
+}
+
+.login_cover input:focus{
+    outline-color: rgb(176, 247, 155);
+}
+
+.login_cover button{
+    background: none;
+    border: 3px solid rgb(176, 247, 155);
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    transition: 0.5s case-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login_cover button:hover{
+    
+    background: rgb(176, 247, 155);
+    color: black;
+}
+
+.category{
+    width: 300px;
+    position: relative;
+    margin-top: -20px;
+    justify-content: space-evenly;
+    display: flex;
+}

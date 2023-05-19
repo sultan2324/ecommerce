@@ -1,0 +1,15 @@
+
+
+.search_input input{
+    
+    background-color: white;
+    height: 0.00001em;
+    width: 22%;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 1.2em;
+    margin-top: 45px;
+    font-size: 20px;
+    border-width: 3px ;
+    margin-left: 1%;
+}

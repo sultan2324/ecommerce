@@ -1,0 +1,124 @@
+
+  
+  .payment_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 93.3vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+  }
+  
+  .payment_container form{
+    padding:20px;
+    width:800px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .payment_container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+  }
+  
+  .payment_container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .payment_container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .payment_container form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .payment_container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .payment_container form .row .col .inputBox input{
+    width: 90%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .payment_container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .payment_container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .payment_container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .payment_container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+
+  .payment__button{
+    width: 100%;
+    height: 10%;
+  }
+  
+  .payment_container form .submit-btn{
+    width: 750px;
+    padding:12px;
+    font-size: 17px;
+    background: #27ae60;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .payment_container form .submit-btn:hover{
+    background: #2ecc71;
+  }
+
+  .popActive{
+    width: 500px;
+    height: 350px;
+    /* background-image: linear-gradient(rgb(76, 175, 241),rgb(46, 46, 186),rgb(53, 172, 209),rgb(131, 131, 227)); */
+    background-color: #2ecc71;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+.popHidden{
+    display: none;
+}
+.continue_btn{
+  
+  background: white;
+  border: 3px solid black;
+  height: 50px;
+  width: 250px;
+  font-size: 27px;
+  transition: 0.5s case-in-out;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.continue_btn:hover{
+  background-color: #06632da1;
+  color: white;
+}

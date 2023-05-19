@@ -36,14 +36,14 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className='homepage__intro'>
+      {/* <div className='homepage__intro'>
         <h1>About Us</h1>
         <h3>AgroCulture</h3>
         <p>Agroculture is an e-commerce website to Explore the new way of trading.....</p>
         <div className='contact__details'>
 
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

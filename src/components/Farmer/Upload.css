@@ -1,0 +1,68 @@
+.upload__box{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 30em;
+    width : 40em;
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    padding: 0 20px;
+    background-color: rgb(217, 220, 222);
+    
+}
+.upload__box label{
+    font-size: 20px;
+}
+.upload_title{
+    background-color: white;
+    height: 0.009em;
+    width: 50%;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 1.2em;
+    margin-top: 20px;
+    font-size: 15px;
+    border-width: 3px ;
+}
+.upload_title1{
+    background-color: white;
+    height: 0.009em;
+    width: 30%;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 1.2em;
+    margin-top: 20px;
+    font-size: 15px;
+    border-width: 3px ;
+    margin-left: 3px;
+}
+
+.upload_title2{
+    color: black;
+    height: 40px;
+    width: 30%;
+    border-radius: 0.4em;
+    padding: 0.05em;
+    margin-top: 20px;
+    font-size: 15px;
+    border-width: 3px ;
+    margin-left: 3px;
+}
+
+.upload__box button{
+    background: none;
+    border: 3px solid black;
+    height: 40px;
+    width: 120px;
+    margin-left: 222px;
+    margin-top: 32px;
+    font-size: 17px;
+    transition: 0.5s case-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.upload__box button:hover{
+    background: black;
+    color: white;
+}

@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+export const CartContext = React.createContext();
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// const [cart,setCart] = useState([]);
+let cart = []
+
+// const Cart = useContext(CartContext);
+
+
 root.render(
   <React.StrictMode>
-    <App />
+      <CartContext.Provider value={{cart}}>
+        <App />
+      </CartContext.Provider>
   </React.StrictMode>
 );
 
